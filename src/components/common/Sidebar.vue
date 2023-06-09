@@ -185,7 +185,6 @@ export default {
     left: 0;
     top: 0;
     bottom: 0;
-    overflow-y: scroll;
     transition: right .3s ease-in-out;
 }
 
@@ -224,15 +223,16 @@ export default {
     transition: .3s;
 }
 
-.sidebar::-webkit-scrollbar {
-    width: 0;
-}
-
 .sidebar-el-menu:not(.el-menu--collapse) {
     width: 220px;
 }
 
 .sidebar > ul {
     height: 100%;
+    overflow-y: scroll;
+}
+
+.sidebar > ul::-webkit-scrollbar{
+    width: 0;
 }
 </style>

@@ -37,8 +37,11 @@
                         <i class='el-icon-caret-bottom'></i>
                     </span>
                     <el-dropdown-menu slot='dropdown'>
-                        <a href='https://github.com/lin-xin/vue-manage-system' target='_blank'>
+                        <a href='https://github.com/JayHrn/vue-manage-admin.git' target='_blank'>
                             <el-dropdown-item>项目仓库</el-dropdown-item>
+                        </a>
+                        <a href='https://blog.jayhrn.com/' target='_blank'>
+                            <el-dropdown-item>联系作者</el-dropdown-item>
                         </a>
                         <el-dropdown-item divided command='loginout'>退出登录</el-dropdown-item>
                     </el-dropdown-menu>
@@ -139,7 +142,7 @@ export default {
 
 .header-right {
     float: right;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 .header-user-con {

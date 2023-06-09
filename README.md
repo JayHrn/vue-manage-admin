@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
   </a>
 
-基于 Vue + Element UI 的后台管理系统解决方案。[线上地址](https://lin-xin.gitee.io/example/work/)
+基于 Vue + Element UI 的后台管理系统解决方案。在线预览需要开启VPN，否则不能查看[线上地址](https://vue-manage-admin.vercel.app/)
 
 ## 前言
 
@@ -43,16 +43,19 @@
 -   [√] 可拖拽弹窗
 -   [√] 国际化
 
+## 后续
+- 面包屑
+
 ## 安装步骤
 
 ```
-git clone https://github.com/JayHrn/vue-manage-admin.git      // 把模板下载到本地
-cd vue-manage-system    // 进入模板目录
-npm install         // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 yarn
+git clone https://github.com/JayHrn/vue-manage-admin.git
+cd vue-manage-admin
+npm install
 
 // 开启服务器，浏览器访问 http://localhost:8080
 npm run serve
 
-// 执行构建命令，生成的dist文件夹放在服务器下即可访问
+// 执行构建命令
 npm run build
 ```

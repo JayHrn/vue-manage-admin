@@ -12,11 +12,11 @@
                     </div>
                     <div class='user-info-list'>
                         上次登录时间：
-                        <span>2019-11-01</span>
+                        <span>2023-06-09</span>
                     </div>
                     <div class='user-info-list'>
                         上次登录地点：
-                        <span>东莞</span>
+                        <span>南昌</span>
                     </div>
                 </el-card>
                 <el-card shadow='hover' style='height:252px;'>
@@ -40,7 +40,7 @@
                             <div class='grid-content grid-con-1'>
                                 <i class='el-icon-lx-people grid-con-icon'></i>
                                 <div class='grid-cont-right'>
-                                    <div class='grid-num'>1234</div>
+                                    <div class='grid-num'>6666</div>
                                     <div>用户访问量</div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                             <div class='grid-content grid-con-2'>
                                 <i class='el-icon-lx-notice grid-con-icon'></i>
                                 <div class='grid-cont-right'>
-                                    <div class='grid-num'>321</div>
+                                    <div class='grid-num'>666</div>
                                     <div>系统消息</div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                             <div class='grid-content grid-con-3'>
                                 <i class='el-icon-lx-goods grid-con-icon'></i>
                                 <div class='grid-cont-right'>
-                                    <div class='grid-num'>5000</div>
+                                    <div class='grid-num'>6666</div>
                                     <div>数量</div>
                                 </div>
                             </div>
@@ -125,11 +125,11 @@ export default {
             name: localStorage.getItem('ms_username'),
             todoList: [
                 {
-                    title: '今天要修复100个bug',
+                    title: '远赴人间惊鸿宴，一睹人间盛世言',
                     status: false
                 },
                 {
-                    title: '今天要修复100个bug',
+                    title: '左手牵你，右手拿笔，不负青春不负你',
                     status: false
                 },
                 {
